@@ -93,13 +93,13 @@ namespace SpecflowTests.FeatureFiles.Profile
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could able to add a Skill")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("02 Check if user could able to add a Skill")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Skill")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Project")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Mars")]
-        public virtual void CheckIfUserCouldAbleToAddASkill()
+        public virtual void _02CheckIfUserCouldAbleToAddASkill()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could able to add a Skill", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("02 Check if user could able to add a Skill", new string[] {
                         "Project",
                         "Mars"});
 #line 13
@@ -115,11 +115,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could edit the existing Skill")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("03 Check if user could edit the existing Skill")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Skill")]
-        public virtual void CheckIfUserCouldEditTheExistingSkill()
+        public virtual void _03CheckIfUserCouldEditTheExistingSkill()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could edit the existing Skill", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("03 Check if user could edit the existing Skill", ((string[])(null)));
 #line 17
 this.ScenarioSetup(scenarioInfo);
 #line 8
@@ -135,11 +135,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could delete the existing Skill")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("04 Check if user could delete the existing Skill")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Skill")]
-        public virtual void CheckIfUserCouldDeleteTheExistingSkill()
+        public virtual void _04CheckIfUserCouldDeleteTheExistingSkill()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could delete the existing Skill", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("04 Check if user could delete the existing Skill", ((string[])(null)));
 #line 22
 this.ScenarioSetup(scenarioInfo);
 #line 8
@@ -155,11 +155,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could reset a Skill")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("05 Check if user could reset a Skill")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Skill")]
-        public virtual void CheckIfUserCouldResetASkill()
+        public virtual void _05CheckIfUserCouldResetASkill()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could reset a Skill", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("05 Check if user could reset a Skill", ((string[])(null)));
 #line 27
 this.ScenarioSetup(scenarioInfo);
 #line 8
@@ -175,11 +175,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user did not add a skill")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("06 Check if user did not add a skill")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Skill")]
-        public virtual void CheckIfUserDidNotAddASkill()
+        public virtual void _06CheckIfUserDidNotAddASkill()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user did not add a skill", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("06 Check if user did not add a skill", ((string[])(null)));
 #line 32
 this.ScenarioSetup(scenarioInfo);
 #line 8
@@ -193,11 +193,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user add a Skill with invalid data")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("07 Check if user add a Skill with invalid data")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Skill")]
-        public virtual void CheckIfUserAddASkillWithInvalidData()
+        public virtual void _07CheckIfUserAddASkillWithInvalidData()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user add a Skill with invalid data", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("07 Check if user add a Skill with invalid data", ((string[])(null)));
 #line 36
 this.ScenarioSetup(scenarioInfo);
 #line 8

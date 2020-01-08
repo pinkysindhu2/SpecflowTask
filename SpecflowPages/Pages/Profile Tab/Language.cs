@@ -8,6 +8,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using NUnit.Framework;
 using RelevantCodes.ExtentReports;
+using SpecflowPages.Helpers;
 
 namespace SpecflowPages.Pages.Profile_Tab
 {
@@ -30,8 +31,7 @@ namespace SpecflowPages.Pages.Profile_Tab
                 addNew.Click();
 
                 // Access the SellerData.xlxs file
-                Helpers.ExcelReaderHelper.PopulateInCollection("C:/Users/Pinky Sindhu/Desktop/Industry Connect/Industry Connect" +
-                    "/Internship/Project Mars/Test Data/SellerData.xlsx", "Language");
+                Helpers.ExcelReaderHelper.PopulateInCollection(CommonUrls.excelFilePath, "Language");
 
                 // Send a Language and level to add
                 IWebElement lang = driver.FindElement(By.XPath("//input[@name=\"name\"]"));
@@ -144,7 +144,7 @@ namespace SpecflowPages.Pages.Profile_Tab
         public static void deleteLanguage(IWebDriver driver)
         {
             Thread.Sleep(1500);
-            IWebElement deleteBtn = driver.FindElement(By.XPath("//div[@data-tab=\"first\"]//table/tbody[3]/tr/td[3]/span[2]"));
+            IWebElement deleteBtn = driver.FindElement(By.XPath("//div[@data-tab=\"first\"]//table/tbody[1]/tr/td[3]/span[2]"));
             deleteBtn.Click();
             Helpers.CommonTestRsltMethods.SaveScreenshot(Helpers.CommonDriver.driver, "LanguageDeleted");
         }

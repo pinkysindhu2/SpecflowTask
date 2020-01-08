@@ -96,14 +96,14 @@ namespace SpecflowTests.FeatureFiles.SearchSkill
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could see the Seller’s profile on Searched Services")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("02 Check if user could see the Seller’s profile on Searched Services")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "SkillSearch")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Project")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Mars")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("important")]
-        public virtual void CheckIfUserCouldSeeTheSellerSProfileOnSearchedServices()
+        public virtual void _02CheckIfUserCouldSeeTheSellerSProfileOnSearchedServices()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could see the Seller’s profile on Searched Services", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("02 Check if user could see the Seller’s profile on Searched Services", new string[] {
                         "Project",
                         "Mars",
                         "important"});
@@ -118,11 +118,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could navigate to Seller\'s Profile page")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("03 Check if user could navigate to Seller\'s Profile page")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "SkillSearch")]
-        public virtual void CheckIfUserCouldNavigateToSellersProfilePage()
+        public virtual void _03CheckIfUserCouldNavigateToSellersProfilePage()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could navigate to Seller\'s Profile page", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("03 Check if user could navigate to Seller\'s Profile page", ((string[])(null)));
 #line 17
 this.ScenarioSetup(scenarioInfo);
 #line 6
@@ -136,11 +136,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could see Seller\'s info on Service Detailed Information page")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("04 Check if user could see Seller\'s info on Service Detailed Information page")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "SkillSearch")]
-        public virtual void CheckIfUserCouldSeeSellersInfoOnServiceDetailedInformationPage()
+        public virtual void _04CheckIfUserCouldSeeSellersInfoOnServiceDetailedInformationPage()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could see Seller\'s info on Service Detailed Information page", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("04 Check if user could see Seller\'s info on Service Detailed Information page", ((string[])(null)));
 #line 21
 this.ScenarioSetup(scenarioInfo);
 #line 6

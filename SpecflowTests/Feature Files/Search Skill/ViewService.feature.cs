@@ -82,34 +82,24 @@ namespace SpecflowTests.FeatureFiles.SearchSkill
             testRunner.CollectScenarioErrors();
         }
         
-        public virtual void FeatureBackground()
-        {
-#line 6
-#line 7
- testRunner.Given("I am logged into Project Mars", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-        }
-        
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("View Services")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("07 View Services")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ViewService")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Project")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Mars")]
-        public virtual void ViewServices()
+        public virtual void _07ViewServices()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("View Services", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("07 View Services", new string[] {
                         "Project",
                         "Mars"});
-#line 11
+#line 9
 this.ScenarioSetup(scenarioInfo);
-#line 6
-this.FeatureBackground();
-#line 12
+#line 10
  testRunner.Given("There are one or more service list on ManageList page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 13
+#line 11
  testRunner.When("I have clicked one of the service", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 14
- testRunner.Then("I should successfully see the Service list with Seller\'s Profile pic and Name.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 12
+ testRunner.Then("I should successfully see the Service list with Seller\'s Profile pic and Name", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

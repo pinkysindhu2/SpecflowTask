@@ -22,8 +22,7 @@ namespace SpecflowPages.Pages.Profile_Tab
             IWebElement textarea = driver.FindElement(By.TagName("textarea"));
 
             // Access the SellerData.xlxs file
-            Helpers.ExcelReaderHelper.PopulateInCollection("C:/Users/Pinky Sindhu/Desktop/Industry Connect/Industry Connect" +
-                "/Internship/Project Mars/Test Data/SellerData.xlsx", "Description");
+            Helpers.ExcelReaderHelper.PopulateInCollection(CommonUrls.excelFilePath, "Description");
 
             textarea.Clear();
             textarea.SendKeys(Helpers.ExcelReaderHelper.ReadData(2, "A short Description"));

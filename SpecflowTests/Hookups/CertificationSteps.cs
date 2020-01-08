@@ -26,6 +26,19 @@ namespace SpecflowTests.Hookups
 
         }
 
+        [Given(@"I click on add new Certification")]
+        public void GivenIClickOnAddNewCertification()
+        {
+            
+        }
+
+        [Given(@"I click on cancel button")]
+        public void GivenIClickOnCancelButton()
+        {
+            
+        }
+
+
         [When(@"I add a new certification")]
         public void WhenIAddANewCertification()
         {
@@ -80,5 +93,18 @@ namespace SpecflowTests.Hookups
         {
 
         }
+
+        [Then(@"Error message should be displayed to ask to enter the data")]
+        public void ThenErrorMessageShouldBeDisplayedToAskToEnterTheData()
+        {
+            
+        }
+
+        [Then(@"that form should successfully reset and hide")]
+        public void ThenThatFormShouldSuccessfullyResetAndHide()
+        {
+           
+        }
+
     }
 }

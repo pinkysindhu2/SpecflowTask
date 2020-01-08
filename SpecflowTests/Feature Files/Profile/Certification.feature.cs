@@ -93,13 +93,13 @@ namespace SpecflowTests.FeatureFiles.Profile
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could able to add a Certification")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("02 Check if user could able to add a Certification")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Certification")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Project")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Mars")]
-        public virtual void CheckIfUserCouldAbleToAddACertification()
+        public virtual void _02CheckIfUserCouldAbleToAddACertification()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could able to add a Certification", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("02 Check if user could able to add a Certification", new string[] {
                         "Project",
                         "Mars"});
 #line 13
@@ -115,11 +115,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could edit the existing Certification")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("03 Check if user could edit the existing Certification")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Certification")]
-        public virtual void CheckIfUserCouldEditTheExistingCertification()
+        public virtual void _03CheckIfUserCouldEditTheExistingCertification()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could edit the existing Certification", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("03 Check if user could edit the existing Certification", ((string[])(null)));
 #line 17
 this.ScenarioSetup(scenarioInfo);
 #line 8
@@ -135,11 +135,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could delete the existing Certification")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("04 Check if user could delete the existing Certification")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Certification")]
-        public virtual void CheckIfUserCouldDeleteTheExistingCertification()
+        public virtual void _04CheckIfUserCouldDeleteTheExistingCertification()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could delete the existing Certification", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("04 Check if user could delete the existing Certification", ((string[])(null)));
 #line 22
 this.ScenarioSetup(scenarioInfo);
 #line 8
@@ -155,11 +155,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could see changes after logout and comeback again")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("05 Check if user could see changes after logout and comeback again")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Certification")]
-        public virtual void CheckIfUserCouldSeeChangesAfterLogoutAndComebackAgain()
+        public virtual void _05CheckIfUserCouldSeeChangesAfterLogoutAndComebackAgain()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could see changes after logout and comeback again", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("05 Check if user could see changes after logout and comeback again", ((string[])(null)));
 #line 27
 this.ScenarioSetup(scenarioInfo);
 #line 8
@@ -171,11 +171,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could reset a Certification")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("06 Check if user could reset a Certification")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Certification")]
-        public virtual void CheckIfUserCouldResetACertification()
+        public virtual void _06CheckIfUserCouldResetACertification()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could reset a Certification", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("06 Check if user could reset a Certification", ((string[])(null)));
 #line 30
 this.ScenarioSetup(scenarioInfo);
 #line 8
@@ -191,11 +191,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user did not add a Certification")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("07 Check if user did not add a Certification")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Certification")]
-        public virtual void CheckIfUserDidNotAddACertification()
+        public virtual void _07CheckIfUserDidNotAddACertification()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user did not add a Certification", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("07 Check if user did not add a Certification", ((string[])(null)));
 #line 35
 this.ScenarioSetup(scenarioInfo);
 #line 8
@@ -209,11 +209,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user add a Certification with invalid data")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("08 Check if user add a Certification with invalid data")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Certification")]
-        public virtual void CheckIfUserAddACertificationWithInvalidData()
+        public virtual void _08CheckIfUserAddACertificationWithInvalidData()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user add a Certification with invalid data", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("08 Check if user add a Certification with invalid data", ((string[])(null)));
 #line 39
 this.ScenarioSetup(scenarioInfo);
 #line 8

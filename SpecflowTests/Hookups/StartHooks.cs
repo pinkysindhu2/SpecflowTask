@@ -21,18 +21,6 @@ namespace SpecflowTests.Hookups
         [BeforeScenario]
         public static void BeforeScenario(ScenarioContext scenarioContext)
         {
-            //TODO: Initilaize the driver, login before every scenario
-            Browser.InitWebDriver();
-
-            // Naviagte to the home page
-            Home.NavigateToPortal(CommonDriver.driver);
-            Home.clickOnLogin(CommonDriver.driver);
-
-            // Login into the Project Mars
-            Login.enterLoginInfo(CommonDriver.driver);
-            Login.clickOnLoginBtn(CommonDriver.driver);
-            Login.loginSuccess(CommonDriver.driver);
-
             scenario = extent.StartTest(scenarioContext.ScenarioInfo.Title);
         }
 
@@ -55,8 +43,7 @@ namespace SpecflowTests.Hookups
 
             extent.EndTest(scenario);
 
-            //TODO: Quit the driver
-            Browser.QuitDriver();
+            
         }
 
         [BeforeTestRun]
@@ -76,7 +63,27 @@ namespace SpecflowTests.Hookups
         [BeforeFeature]
         public static void BeforeFeature(FeatureContext featureContext)
         {
+            //TODO: Initilaize the driver, login before every scenario
+            Browser.InitWebDriver();
+
+            // Naviagte to the home page
+            Home.NavigateToPortal(CommonDriver.driver);
+            Home.clickOnLogin(CommonDriver.driver);
+
+            // Login into the Project Mars
+            Login.enterLoginInfo(CommonDriver.driver);
+            Login.clickOnLoginBtn(CommonDriver.driver);
+            Login.loginSuccess(CommonDriver.driver);
+
+            // Start Extent report
             featureName = extent.StartTest(featureContext.FeatureInfo.Title, featureContext.FeatureInfo.Description);
+        }
+
+        [AfterFeature]
+        public static void AfterFeature()
+        {
+            //TODO: Quit the driver
+            Browser.QuitDriver();
         }
 
     }

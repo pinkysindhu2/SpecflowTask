@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
+using SpecflowPages.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,8 +30,7 @@ namespace SpecflowPages.Pages.Profile_Tab
             addEducation.Click();
 
             // Access the SellerData.xlxs file
-            Helpers.ExcelReaderHelper.PopulateInCollection("C:/Users/Pinky Sindhu/Desktop/Industry Connect/Industry Connect" +
-                "/Internship/Project Mars/Test Data/SellerData.xlsx", "Education");
+            Helpers.ExcelReaderHelper.PopulateInCollection(CommonUrls.excelFilePath, "Education");
 
             // Send a Education deatils to add
             educationData(driver, 2);
@@ -103,8 +103,7 @@ namespace SpecflowPages.Pages.Profile_Tab
             editBtn.Click();
 
             // Access the SellerData.xlxs file
-            Helpers.ExcelReaderHelper.PopulateInCollection("C:/Users/Pinky Sindhu/Desktop/Industry Connect/Industry Connect" +
-                "/Internship/Project Mars/Test Data/SellerData.xlsx", "Education");
+            Helpers.ExcelReaderHelper.PopulateInCollection(CommonUrls.excelFilePath, "Education");
 
             Thread.Sleep(1000);
 
@@ -159,8 +158,7 @@ namespace SpecflowPages.Pages.Profile_Tab
                 bool status = false;
 
                 // Access the SellerData.xlxs file
-                Helpers.ExcelReaderHelper.PopulateInCollection("C:/Users/Pinky Sindhu/Desktop/Industry Connect/Industry Connect" +
-                    "/Internship/Project Mars/Test Data/SellerData.xlsx", "Education");
+                Helpers.ExcelReaderHelper.PopulateInCollection(CommonUrls.excelFilePath, "Education");
 
                 Thread.Sleep(1000);
 

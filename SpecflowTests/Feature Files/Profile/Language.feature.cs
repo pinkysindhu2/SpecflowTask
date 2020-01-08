@@ -92,13 +92,13 @@ namespace SpecflowTests.FeatureFiles.Profile
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could able to add a Language")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("02 Check if user could able to add a Language")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Language")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Project")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Mars")]
-        public virtual void CheckIfUserCouldAbleToAddALanguage()
+        public virtual void _02CheckIfUserCouldAbleToAddALanguage()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could able to add a Language", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("02 Check if user could able to add a Language", new string[] {
                         "Project",
                         "Mars"});
 #line 11
@@ -114,11 +114,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could edit the existing language")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("03 Check if user could edit the existing language")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Language")]
-        public virtual void CheckIfUserCouldEditTheExistingLanguage()
+        public virtual void _03CheckIfUserCouldEditTheExistingLanguage()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could edit the existing language", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("03 Check if user could edit the existing language", ((string[])(null)));
 #line 15
 this.ScenarioSetup(scenarioInfo);
 #line 6
@@ -134,11 +134,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could delete the existing language")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("04 Check if user could delete the existing language")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Language")]
-        public virtual void CheckIfUserCouldDeleteTheExistingLanguage()
+        public virtual void _04CheckIfUserCouldDeleteTheExistingLanguage()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could delete the existing language", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("04 Check if user could delete the existing language", ((string[])(null)));
 #line 20
 this.ScenarioSetup(scenarioInfo);
 #line 6
@@ -154,11 +154,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could reset a Language")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("05 Check if user could reset a Language")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Language")]
-        public virtual void CheckIfUserCouldResetALanguage()
+        public virtual void _05CheckIfUserCouldResetALanguage()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could reset a Language", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("05 Check if user could reset a Language", ((string[])(null)));
 #line 25
 this.ScenarioSetup(scenarioInfo);
 #line 6
@@ -174,11 +174,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user did not add a Language")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("06 Check if user did not add a Language")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Language")]
-        public virtual void CheckIfUserDidNotAddALanguage()
+        public virtual void _06CheckIfUserDidNotAddALanguage()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user did not add a Language", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("06 Check if user did not add a Language", ((string[])(null)));
 #line 30
 this.ScenarioSetup(scenarioInfo);
 #line 6
@@ -192,11 +192,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user add a Language with invalid data")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("07 Check if user add a Language with invalid data")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Language")]
-        public virtual void CheckIfUserAddALanguageWithInvalidData()
+        public virtual void _07CheckIfUserAddALanguageWithInvalidData()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user add a Language with invalid data", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("07 Check if user add a Language with invalid data", ((string[])(null)));
 #line 34
 this.ScenarioSetup(scenarioInfo);
 #line 6

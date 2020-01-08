@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
+using SpecflowPages.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,8 +30,7 @@ namespace SpecflowPages.Pages.Profile_Tab
             addSkill.Click();
 
             // Access the SellerData.xlxs file
-            Helpers.ExcelReaderHelper.PopulateInCollection("C:/Users/Pinky Sindhu/Desktop/Industry Connect/Industry Connect" +
-                "/Internship/Project Mars/Test Data/SellerData.xlsx", "Skill");
+            Helpers.ExcelReaderHelper.PopulateInCollection(CommonUrls.excelFilePath, "Skill");
 
             // Send a Skill and level to add
             IWebElement skill = driver.FindElement(By.XPath("//input[@name=\"name\"]"));

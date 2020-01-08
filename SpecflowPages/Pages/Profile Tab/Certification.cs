@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
+using SpecflowPages.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,8 +30,7 @@ namespace SpecflowPages.Pages.Profile_Tab
             addCertification.Click();
 
             // Access the SellerData.xlxs file
-            Helpers.ExcelReaderHelper.PopulateInCollection("C:/Users/Pinky Sindhu/Desktop/Industry Connect/Industry Connect" +
-                "/Internship/Project Mars/Test Data/SellerData.xlsx", "Certification");
+            Helpers.ExcelReaderHelper.PopulateInCollection(CommonUrls.excelFilePath, "Certification");
 
             // Send a Certification deatils to add
             certificationData(driver, 2);
@@ -98,8 +98,7 @@ namespace SpecflowPages.Pages.Profile_Tab
             editBtn.Click();
 
             // Access the SellerData.xlxs file
-            Helpers.ExcelReaderHelper.PopulateInCollection("C:/Users/Pinky Sindhu/Desktop/Industry Connect/Industry Connect" +
-                "/Internship/Project Mars/Test Data/SellerData.xlsx", "Certification");
+            Helpers.ExcelReaderHelper.PopulateInCollection(CommonUrls.excelFilePath, "Certification");
 
             Thread.Sleep(1000);
 
@@ -151,8 +150,7 @@ namespace SpecflowPages.Pages.Profile_Tab
                 bool status = false;
 
                 // Access the SellerData.xlxs file
-                Helpers.ExcelReaderHelper.PopulateInCollection("C:/Users/Pinky Sindhu/Desktop/Industry Connect/Industry Connect" +
-                    "/Internship/Project Mars/Test Data/SellerData.xlsx", "Certification");
+                Helpers.ExcelReaderHelper.PopulateInCollection(CommonUrls.excelFilePath, "Certification");
 
                 Thread.Sleep(1000);
 

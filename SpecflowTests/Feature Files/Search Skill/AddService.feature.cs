@@ -83,56 +83,44 @@ namespace SpecflowTests.FeatureFiles.SearchSkill
             testRunner.CollectScenarioErrors();
         }
         
-        public virtual void FeatureBackground()
-        {
-#line 6
-#line 7
- testRunner.Given("I am logged into Project Mars", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-        }
-        
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Click on Share Skill button")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("05 Click on Share Skill button")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "AddService")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Project")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Mars")]
-        public virtual void ClickOnShareSkillButton()
+        public virtual void _05ClickOnShareSkillButton()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Click on Share Skill button", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("05 Click on Share Skill button", new string[] {
                         "Project",
                         "Mars"});
-#line 11
+#line 8
 this.ScenarioSetup(scenarioInfo);
-#line 6
-this.FeatureBackground();
-#line 12
+#line 9
  testRunner.Given("I am on Profile Details Page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 13
+#line 10
  testRunner.When("I have clicked on the Share Skill button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 14
- testRunner.Then("I should successfully naviaged to Service Listing Form.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 11
+ testRunner.Then("I should successfully naviaged to Service Listing Form", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Create a new Service")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("06 Create a new Service")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "AddService")]
-        public virtual void CreateANewService()
+        public virtual void _06CreateANewService()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create a new Service", ((string[])(null)));
-#line 16
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("06 Create a new Service", ((string[])(null)));
+#line 13
 this.ScenarioSetup(scenarioInfo);
-#line 6
-this.FeatureBackground();
-#line 17
+#line 14
  testRunner.Given("Empty Service form is listed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 18
+#line 15
  testRunner.And("I have filled the form with the valid data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 19
+#line 16
  testRunner.When("I have clicked on Save button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 20
- testRunner.Then("I should successfully created a Service to share.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 17
+ testRunner.Then("I should successfully created a Service to share", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

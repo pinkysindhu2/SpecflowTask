@@ -93,13 +93,13 @@ namespace SpecflowTests.FeatureFiles.Profile
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could able to add a Education")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("02 Check if user could able to add a Education")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Education")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Project")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Mars")]
-        public virtual void CheckIfUserCouldAbleToAddAEducation()
+        public virtual void _02CheckIfUserCouldAbleToAddAEducation()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could able to add a Education", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("02 Check if user could able to add a Education", new string[] {
                         "Project",
                         "Mars"});
 #line 13
@@ -115,11 +115,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could edit the existing Education")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("03 Check if user could edit the existing Education")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Education")]
-        public virtual void CheckIfUserCouldEditTheExistingEducation()
+        public virtual void _03CheckIfUserCouldEditTheExistingEducation()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could edit the existing Education", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("03 Check if user could edit the existing Education", ((string[])(null)));
 #line 17
 this.ScenarioSetup(scenarioInfo);
 #line 8
@@ -135,11 +135,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could delete the existing Education")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("04 Check if user could delete the existing Education")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Education")]
-        public virtual void CheckIfUserCouldDeleteTheExistingEducation()
+        public virtual void _04CheckIfUserCouldDeleteTheExistingEducation()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could delete the existing Education", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("04 Check if user could delete the existing Education", ((string[])(null)));
 #line 22
 this.ScenarioSetup(scenarioInfo);
 #line 8
@@ -155,11 +155,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user could reset a Education")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("05 Check if user could reset a Education")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Education")]
-        public virtual void CheckIfUserCouldResetAEducation()
+        public virtual void _05CheckIfUserCouldResetAEducation()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user could reset a Education", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("05 Check if user could reset a Education", ((string[])(null)));
 #line 27
 this.ScenarioSetup(scenarioInfo);
 #line 8
@@ -175,11 +175,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user did not add a Education")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("06 Check if user did not add a Education")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Education")]
-        public virtual void CheckIfUserDidNotAddAEducation()
+        public virtual void _06CheckIfUserDidNotAddAEducation()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user did not add a Education", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("06 Check if user did not add a Education", ((string[])(null)));
 #line 32
 this.ScenarioSetup(scenarioInfo);
 #line 8
@@ -193,11 +193,11 @@ this.FeatureBackground();
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Check if user add a Education with invalid data")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("07 Check if user add a Education with invalid data")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Education")]
-        public virtual void CheckIfUserAddAEducationWithInvalidData()
+        public virtual void _07CheckIfUserAddAEducationWithInvalidData()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check if user add a Education with invalid data", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("07 Check if user add a Education with invalid data", ((string[])(null)));
 #line 36
 this.ScenarioSetup(scenarioInfo);
 #line 8

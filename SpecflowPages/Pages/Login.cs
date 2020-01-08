@@ -32,6 +32,7 @@ namespace SpecflowPages.Pages
         {
             Thread.Sleep(3000);
             string url = driver.Url;
+            Thread.Sleep(1000);
             Assert.AreEqual(url, "http://www.skillswap.pro/Account/Profile");
 
         }

@@ -130,6 +130,7 @@
     <Compile Include="Hookups\DescriptionSteps.cs" />
     <Compile Include="Hookups\EducationSteps.cs" />
     <Compile Include="Hookups\LanguageSteps.cs" />
+    <Compile Include="Hookups\ServiceSteps.cs" />
     <Compile Include="Hookups\SkillSearchSteps.cs" />
     <Compile Include="Hookups\SkillSteps.cs" />
     <Compile Include="Hookups\StartHooks.cs" />
