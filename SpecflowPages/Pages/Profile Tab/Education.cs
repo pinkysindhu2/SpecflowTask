@@ -58,7 +58,7 @@ namespace SpecflowPages.Pages.Profile_Tab
 
         public static void addEducationSuccess(IWebDriver driver)
         {
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
 
             bool status = false;
 
@@ -87,6 +87,7 @@ namespace SpecflowPages.Pages.Profile_Tab
 
         public static void checkIfEducationAvailable(IWebDriver driver)
         {
+            Thread.Sleep(1000);
             //count how many tbody is present into table
             IList<IWebElement> row = driver.FindElements(By.XPath("//div[@data-tab=\"third\"]//table/tbody"));
 
@@ -160,7 +161,7 @@ namespace SpecflowPages.Pages.Profile_Tab
                 // Access the SellerData.xlxs file
                 Helpers.ExcelReaderHelper.PopulateInCollection(CommonUrls.excelFilePath, "Education");
 
-                Thread.Sleep(1000);
+                Thread.Sleep(1500);
 
                 IList<IWebElement> tbody = driver.FindElements(By.XPath("//div[@data-tab=\"third\"]//table/tbody"));
                 int row = tbody.Count;

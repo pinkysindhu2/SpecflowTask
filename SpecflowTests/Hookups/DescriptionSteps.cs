@@ -35,7 +35,7 @@ namespace SpecflowTests.Hookups
         [When(@"I save without a short description")]
         public void WhenISaveWithoutAShortDescription()
         {
-            ScenarioContext.Current.Pending();
+            
         }
         
         [When(@"I save a very long description")]

@@ -25,7 +25,7 @@ Scenario: 04 Check if user could delete the existing Education
 	Then that particular education should be deleted successfully
 
 Scenario: 05 Check if user could reset a Education
-	When I add a new education
+	When I enter a education
 	And I click on cancel button
 	Then that form should successfully reset and hide
 

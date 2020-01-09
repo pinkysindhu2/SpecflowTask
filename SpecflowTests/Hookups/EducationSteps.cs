@@ -43,6 +43,11 @@ namespace SpecflowTests.Hookups
         {
 
         }
+        [When(@"I enter a education")]
+        public void WhenIEnterAEducation()
+        {
+            ScenarioContext.Current.Pending();
+        }
 
         [When(@"I add a new education with invalid data")]
         public void WhenIAddANewEducationWithInvalidData()

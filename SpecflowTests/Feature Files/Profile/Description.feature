@@ -4,10 +4,11 @@ In order to update my profile
 	I want to add a short profile description
 
 Background: 01 Click on the Description tab
-	Given I clicked on the Description tab under Profile page
+	
 
 @Project Mars
 Scenario: 02 Check if user could able to add a Description
+	Given I clicked on the Description tab under Profile page
 	When I save a short summary 
 	Then that short summary should be displayed on my listings
 

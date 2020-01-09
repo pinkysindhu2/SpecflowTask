@@ -25,7 +25,7 @@ Scenario: 04 Check if user could delete the existing Skill
 	Then that particular skill should be deleted successfully
 
 Scenario: 05 Check if user could reset a Skill
-	When I add a new skill
+	Given I click on add new Skill
 	And I click on cancel button
 	Then that form should successfully reset and hide
 

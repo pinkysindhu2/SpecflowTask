@@ -20,6 +20,13 @@ namespace SpecflowTests.Hookups
             Skill.checkIfSkillAvailable(CommonDriver.driver);
         }
 
+        [Given(@"I click on add new Skill")]
+        public void GivenIClickOnAddNewSkill()
+        {
+            
+        }
+
+
         [When(@"I add a new skill")]
         public void WhenIAddANewSkill()
         {

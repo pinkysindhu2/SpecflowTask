@@ -30,9 +30,9 @@ namespace SpecflowPages.Pages
 
         public static void loginSuccess(IWebDriver driver)
         {
-            Thread.Sleep(3000);
+            Thread.Sleep(1500);
             string url = driver.Url;
-            Thread.Sleep(1000);
+            Thread.Sleep(3000);
             Assert.AreEqual(url, "http://www.skillswap.pro/Account/Profile");
 
         }

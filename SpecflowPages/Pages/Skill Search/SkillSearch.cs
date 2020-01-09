@@ -33,13 +33,14 @@ namespace SpecflowPages.Pages.Skill_Search
 
         public static void searchSuccess(IWebDriver driver)
         {
-            Thread.Sleep(2500);
+            Thread.Sleep(3000);
             IList<IWebElement> resultCount = driver.FindElements(By.XPath("//div[@class=\"ui card\"]"));
             Assert.That(resultCount.Count, Is.GreaterThan(0));
         }
 
         public static void sellerInfoOnCard(IWebDriver driver)
         {
+            Thread.Sleep(500);
             IList<IWebElement> resultCount = driver.FindElements(By.XPath("//div[@class=\"ui card\"]"));
             bool status = false;
             if (resultCount.Count > 0)
@@ -58,7 +59,7 @@ namespace SpecflowPages.Pages.Skill_Search
 
         public static void clickOnSellerInfoOnRsltPg(IWebDriver driver)
         {
-            Thread.Sleep(2000);
+            Thread.Sleep(4000);
 
             IWebElement sellerInfo = driver.FindElement(By.XPath("//div[@class=\"ui card\"][1]/" +
                        "child::div/a[@class=\"seller-info\"]"));
@@ -67,7 +68,7 @@ namespace SpecflowPages.Pages.Skill_Search
             IWebElement sellerService = driver.FindElement(By.XPath("//div[@class=\"ui card\"][1]/" +
                        "child::div/a[@class=\"service-info\"]"));
 
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
 
             setSellerInfoFromResultPage(sellerInfo, sellerService);
 
@@ -76,7 +77,7 @@ namespace SpecflowPages.Pages.Skill_Search
 
         public static void clickOnListedService(IWebDriver driver)
         {
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
 
             IWebElement sellerInfo = driver.FindElement(By.XPath("//div[@class=\"ui card\"][1]/" +
                        "child::div/a[@class=\"seller-info\"]"));
@@ -92,7 +93,7 @@ namespace SpecflowPages.Pages.Skill_Search
 
         public static void isSellerInfoOnServiceListingPg(IWebDriver driver)
         {
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
 
             checkUrlChanged(driver, sellerServiceUrl);
             var firstName = sellerName.Split(' ');
@@ -135,7 +136,7 @@ namespace SpecflowPages.Pages.Skill_Search
 
         private static void checkUrlChanged(IWebDriver driver, string Url)
         {
-            Thread.Sleep(2000);
+            Thread.Sleep(2500);
             string url = driver.Url;
             Assert.AreEqual(url, Url);
         }

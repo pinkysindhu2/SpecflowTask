@@ -15,7 +15,7 @@ namespace SpecflowTests.Hookups
         [Given(@"Empty Service form is listed")]
         public void GivenEmptyServiceFormIsListed()
         {
-            ScenarioContext.Current.Pending();
+            
         }
         
         [Given(@"I have filled the form with the valid data")]

@@ -183,7 +183,7 @@ this.FeatureBackground();
 #line 31
  testRunner.Given("I click on add new Certification", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 32
- testRunner.And("I click on cancel button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.When("I click on cancel button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 33
  testRunner.Then("that form should successfully reset and hide", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden

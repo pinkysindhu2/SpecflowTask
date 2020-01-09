@@ -58,7 +58,7 @@ namespace SpecflowPages.Pages.Profile_Tab
 
         public static void addCertificationSuccess(IWebDriver driver)
         {
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
 
             bool status = false;
 
@@ -84,6 +84,7 @@ namespace SpecflowPages.Pages.Profile_Tab
         public static void checkIfCertificationAvailable(IWebDriver driver)
         {
             //count how many tbody is present into table
+            Thread.Sleep(1000);
             IList<IWebElement> row = driver.FindElements(By.XPath("//div[@data-tab=\"fourth\"]//table/tbody"));
             Assert.That(row.Count, Is.GreaterThan(0));
 
@@ -152,7 +153,7 @@ namespace SpecflowPages.Pages.Profile_Tab
                 // Access the SellerData.xlxs file
                 Helpers.ExcelReaderHelper.PopulateInCollection(CommonUrls.excelFilePath, "Certification");
 
-                Thread.Sleep(1000);
+                Thread.Sleep(1500);
 
                 IList<IWebElement> tbody = driver.FindElements(By.XPath("//div[@data-tab=\"fourth\"]//table/tbody"));
                 int row = tbody.Count;

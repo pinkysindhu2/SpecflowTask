@@ -102,12 +102,12 @@ namespace SpecflowPages.Pages.Profile_Tab
         // Edit the Language
         public static void editLanguage(IWebDriver driver)
         {
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
 
             IWebElement editBtn = driver.FindElement(By.XPath("//div[@data-tab=\"first\"]//table/tbody[1]/tr/td[3]/span[1]"));
             editBtn.Click();
 
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
 
             // Send a Language and level to add
             IWebElement lang = driver.FindElement(By.XPath("//input[@name=\"name\"]"));
@@ -126,7 +126,7 @@ namespace SpecflowPages.Pages.Profile_Tab
         // Edit the Language is passed or failed
         public static void updateLangSuccess(IWebDriver driver)
         {
-            Thread.Sleep(2000);
+            Thread.Sleep(2500);
             bool status = false;
 
             var lang = driver.FindElement(By.XPath("//div[@data-tab=\"first\"]//table/tbody[1]/tr/td[1]"));
@@ -154,10 +154,7 @@ namespace SpecflowPages.Pages.Profile_Tab
         {
             try
             {
-                Thread.Sleep(1000);
-
-
-                Thread.Sleep(1000);
+                Thread.Sleep(2000);
                 IList<IWebElement> tbody = driver.FindElements(By.XPath("//div[@data-tab=\"first\"]//table/tbody"));
                 int row = tbody.Count;
 
@@ -192,6 +189,8 @@ namespace SpecflowPages.Pages.Profile_Tab
         // check langauge is alread in count 4 if it is then user can not click on addnew and if not then use can click on addnew
         private static bool checkLangCount(IWebDriver driver)
         {
+            Thread.Sleep(800);
+
             IList<IWebElement> tbody = driver.FindElements(By.XPath("//div[@data-tab=\"first\"]//table/tbody"));
 
             int tbodyCount = tbody.Count;

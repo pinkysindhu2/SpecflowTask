@@ -63,7 +63,7 @@ namespace SpecflowPages.Pages.Profile_Tab
 
         public static void addSkillSuccess(IWebDriver driver)
         {
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
             bool status = false;
 
             IList<IWebElement> tbody = driver.FindElements(By.XPath("//div[@data-tab=\"second\"]//table/tbody"));
@@ -84,6 +84,7 @@ namespace SpecflowPages.Pages.Profile_Tab
 
         public static void checkIfSkillAvailable(IWebDriver driver)
         {
+            Thread.Sleep(1000);
             //count how many tbody is present into table
             IList<IWebElement> row = driver.FindElements(By.XPath("//div[@data-tab=\"second\"]//table/tbody"));
 
@@ -94,12 +95,12 @@ namespace SpecflowPages.Pages.Profile_Tab
         // Edit the Language
         public static void editSkill(IWebDriver driver)
         {
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
 
             IWebElement editBtn = driver.FindElement(By.XPath("//div[@data-tab=\"second\"]//table/tbody[1]/tr/td[3]/span[1]"));
             editBtn.Click();
 
-            Thread.Sleep(500);
+            Thread.Sleep(800);
 
             // Send a Language and level to add
             IWebElement lang = driver.FindElement(By.XPath("//input[@name=\"name\"]"));
@@ -146,7 +147,7 @@ namespace SpecflowPages.Pages.Profile_Tab
         {
             try
             {
-                Thread.Sleep(1000);
+                Thread.Sleep(1500);
                 bool status = false;
 
                 IList<IWebElement> tbody = driver.FindElements(By.XPath("//div[@data-tab=\"second\"]//table/tbody"));

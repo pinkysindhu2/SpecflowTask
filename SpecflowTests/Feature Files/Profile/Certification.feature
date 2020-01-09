@@ -29,7 +29,7 @@ Scenario: 05 Check if user could see changes after logout and comeback again
 
 Scenario: 06 Check if user could reset a Certification
 	Given I click on add new Certification
-	And I click on cancel button
+	When I click on cancel button
 	Then that form should successfully reset and hide
 
 Scenario: 07 Check if user did not add a Certification
